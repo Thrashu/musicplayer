@@ -1,12 +1,17 @@
 <template>
 <div>
-  主界面
+  <TodayRecommend/>
 </div>
 </template>
 
+
 <script>
+  import TodayRecommend from "../TodayRecommend"
     export default {
-        name: "home"
+        name: "home",
+      components:{
+          TodayRecommend
+      }
     }
 </script>
 

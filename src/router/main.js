@@ -3,9 +3,12 @@
 import Vue from 'vue'
 import App from '../App'
 import router from "./router"
+import Aioxs from "axios"
 
 
+Vue.prototype.$axios=Aioxs
 Vue.config.productionTip = false
+Vue.prototype.HOST="/baidu_music_api"
 
 /* eslint-disable no-new */
 new Vue({
